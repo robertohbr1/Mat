@@ -2,6 +2,32 @@
 
 Um jogo interativo e dinâmico para treinar e aprimorar suas habilidades matemáticas! Projetado com uma interface moderna e bonita, o jogo desafia você a resolver problemas matemáticos cada vez mais difíceis.
 
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Node.js 18+ (com npm)
+
+### Opção 1: Script PowerShell (recomendado no Windows)
+Na raiz do projeto, execute:
+
+```powershell
+.\Exec.ps1
+```
+
+O script:
+- valida se Node.js e npm estão instalados
+- instala as dependências automaticamente se `node_modules` não existir
+- inicia o servidor de desenvolvimento com `npm run dev`
+
+### Opção 2: Comandos npm
+
+```powershell
+npm install
+npm run dev
+```
+
+Abra a URL exibida no terminal (normalmente `http://localhost:5173`).
+
 ## 🎯 Objetivo do Jogo
 O principal objetivo é resolver problemas matemáticos corretamente para acumular pontos e subir de nível. O jogo se adapta ao seu desempenho: quanto mais você acerta consecutivamente, mais desafiadora a matemática se torna!
 
